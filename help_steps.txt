@@ -1,0 +1,13 @@
+Main Reference Link :
+[https://github.com/gophertuts/reminders-cli/]
+
+# To send the Desktop notification form Node.
+In Ubuntu / mint OS desktop notification required OS dependancy package "notify-send"
+
+Run and checke package is installed or not.[Reference link : http://manpages.ubuntu.com/manpages/focal/en/man1/notify-send.1.html]
+Use the below command to check required package is installed at OS level or not.
+  > node-send --version 
+
+for the missing package, run the below command.
+  > sudo apt install libnotify-bin
+
