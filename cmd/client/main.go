@@ -9,7 +9,7 @@ import (
 )
 
 var (
-	backendURIFlag = flag.String("backend", "http://localhost8080", "Backend API URL")
+	backendURIFlag = flag.String("backend", "http://localhost:8080", "Backend API URI")
 	helpFlag       = flag.Bool("help", false, "Display a helpful message")
 )
 
